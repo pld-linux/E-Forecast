@@ -7,9 +7,9 @@ License:	GPL
 Group:		X11/Applications
 Source0:	http://dl.sourceforge.net/waepplets/%{name}-%{version}.tar.gz
 # Source0-md5:	5243f7ca02dd368975ffeb7acfd83b74
+URL:		http://waepplets.sourceforge.net/
 Requires:	enlightenment >= 0.16.4
 Requires:	epplets >= 0.6
-URL:		http://waepplets.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
@@ -35,7 +35,8 @@ EBIN="%{_bindir}"
 EROOT="%{_datadir}/enlightenment"
 export EBIN EROOT
 
-%{__make} PREFIX=$RPM_BUILD_ROOT install
+%{__make} install \
+	PREFIX=$RPM_BUILD_ROOT
 
 %clean
 rm -rf $RPM_BUILD_ROOT
