@@ -21,7 +21,7 @@ the city of your choice.
 
 %description -l pl
 Ten Eplet jest przeznaczony do u¿ywania z zarz±dc± okien Enlightenment
-i innymi Epletami. Wy¶wietla okonê z prognoz± pogody dla wybranego
+i innymi Epletami. Wy¶wietla ikonê z prognoz± pogody dla wybranego
 miasta.
 
 %prep
