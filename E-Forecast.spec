@@ -5,12 +5,11 @@ Version:	0.2
 Release:	1
 License:	GPL
 Group:		X11/Applications
-Source0:	ftp://download.sourceforge.net/pub/sourceforge/waepplets/%{name}-%{version}.tar.gz
+Source0:	http://dl.sourceforge.net/waepplets/%{name}-%{version}.tar.gz
 Requires:	enlightenment >= 0.16.4
 Requires:	epplets >= 0.6
 URL:		http://waepplets.sourceforge.net/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
-
 
 %description
 This Epplet is intended for use with Enlightenment windowmanager and
