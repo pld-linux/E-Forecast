@@ -21,11 +21,16 @@ This Epplet is intended for use with Enlightenment windowmanager and
 Epplets software. It displays an icon with the weather forecast for
 the city of your choice.
 
+%description -l pl
+Ten Eplet jest przeznaczony do u¿ywania z zarz±dc± okien Enlightenment
+i innymi Epletami. Wy¶wietla okonê z prognoz± pogody dla wybranego
+miasta.
+
 %prep
 %setup -q
 
 %build
-CFLAGS="%{rpmcflags}" make
+CFLAGS="%{rpmcflags}" %{__make}
 
 %install
 rm -rf $RPM_BUILD_ROOT
