@@ -1,7 +1,7 @@
 Summary:	Shows an icon with the current weather forecast
 Summary(pl):	Pokazuje ikonê z aktualn± prognoz± pogody
 Name:		E-Forecast
-Version:	0.1
+Version:	0.2
 Release:	1
 License:	GPL
 Group:		X11/Applications
