@@ -1,10 +1,12 @@
 Summary:	Shows an icon with the current weather forecast
+Summary(pl):	Pokazuje ikonê z aktualn± prognoz± pogody
 Name:		E-Forecast
 Version:	0.1
 Release:	1
 License:	GPL
-Group:		X11/Utilities
-Group(pl):	X11/Narzêdzia
+Group:		X11/Applications
+Group(de):	X11/Applikationen
+Group(pl):	X11/Aplikacje
 Source0:	ftp://download.sourceforge.net/pub/sourceforge/waepplets/%{name}-%{version}.tar.gz
 Requires:	enlightenment >= 0.16.4
 Requires:	epplets >= 0.6
@@ -23,7 +25,7 @@ the city of your choice.
 %setup -q
 
 %build
-CFLAGS="$RPM_OPT_FLAGS" make
+CFLAGS="%{rpmcflags}" make
 
 %install
 rm -rf $RPM_BUILD_ROOT
