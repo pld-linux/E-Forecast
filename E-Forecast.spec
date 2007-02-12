@@ -1,5 +1,5 @@
 Summary:	Shows an icon with the current weather forecast
-Summary(pl.UTF-8):   Pokazuje ikonę z aktualną prognozą pogody
+Summary(pl.UTF-8):	Pokazuje ikonę z aktualną prognozą pogody
 Name:		E-Forecast
 Version:	0.2
 Release:	1
