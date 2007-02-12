@@ -1,5 +1,5 @@
 Summary:	Shows an icon with the current weather forecast
-Summary(pl):	Pokazuje ikonê z aktualn± prognoz± pogody
+Summary(pl.UTF-8):   Pokazuje ikonÄ™ z aktualnÄ… prognozÄ… pogody
 Name:		E-Forecast
 Version:	0.2
 Release:	1
@@ -17,9 +17,9 @@ This Epplet is intended for use with Enlightenment windowmanager and
 Epplets software. It displays an icon with the weather forecast for
 the city of your choice.
 
-%description -l pl
-Ten Eplet jest przeznaczony do u¿ywania z zarz±dc± okien Enlightenment
-i innymi Epletami. Wy¶wietla ikonê z prognoz± pogody dla wybranego
+%description -l pl.UTF-8
+Ten Eplet jest przeznaczony do uÅ¼ywania z zarzÄ…dcÄ… okien Enlightenment
+i innymi Epletami. WyÅ›wietla ikonÄ™ z prognozÄ… pogody dla wybranego
 miasta.
 
 %prep
